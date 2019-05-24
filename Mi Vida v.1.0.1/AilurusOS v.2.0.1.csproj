@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7B3E645-1605-474D-BEAB-ACB6200CED11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Mi_Vida_v._1._0._1</RootNamespace>
+    <AssemblyName>Mi Vida v.1.0.1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CefSharp, Version=51.0.0.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\CefSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.Core, Version=51.0.0.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\CefSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.WinForms, Version=51.0.0.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\CefSharp.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Control.Draggable, Version=1.0.5049.269, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Control.Draggable.1.0.5049.269\lib\net35-Client\Control.Draggable.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Browser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Command.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Command.Designer.cs">
+      <DependentUpon>Command.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPanel.Designer.cs">
+      <DependentUpon>LoginPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notepad.Designer.cs">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="p3rlloginpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="p3rlloginpanel.Designer.cs">
+      <DependentUpon>p3rlloginpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SessionState.Designer.cs">
+      <DependentUpon>SessionState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1P3RL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1P3RL.Designer.cs">
+      <DependentUpon>1P3RL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserSetting.Designer.cs">
+      <DependentUpon>UserSetting.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Browser.resx">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Command.resx">
+      <DependentUpon>Command.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPanel.resx">
+      <DependentUpon>LoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notepad.resx">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="p3rlloginpanel.resx">
+      <DependentUpon>p3rlloginpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SessionState.resx">
+      <DependentUpon>SessionState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1P3RL.resx">
+      <DependentUpon>1P3RL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserSetting.resx">
+      <DependentUpon>UserSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\checklist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\browse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\terminal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\LoginPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\LoginButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\LoginPanel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\LoginPanel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\user-settings-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\UserSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\logo-banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\Personalize.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\wait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\glossy-red-icon-angle-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\Key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\MiVida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6e1cdb75a09fa09fccc9393f02f7ff7c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\backbody.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\panelbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\backbody2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\Login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\AilurusOS-Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\AilurusOS-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\back-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\home-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\foward-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\refresh-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\Traceroute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\lang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\Display.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\cmdsetting.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

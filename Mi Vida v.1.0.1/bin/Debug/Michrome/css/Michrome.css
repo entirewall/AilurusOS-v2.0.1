@@ -1,0 +1,22 @@
+#Resim{
+  height:150px;
+  width:150px;
+  padding:0 10px 10px 0;
+    display: table;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    margin:0 auto;
+  -moz-background-size: 100% 100%;      /* Firefox 3.6 */
+  -webkit-background-size: 100% 100%;  /* Safari 3.0, Chrome */
+  background-size: 100% 100%;      /* w3c, Firefox 4.0, ie9  */
+  -o-background-size: 100% 100%;   /* Opera 9.5 */
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='AilurusOSLogo.png',sizingMethod='scale'); /* ie8  */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='AilurusOSLogo.png', sizingMethod='scale')";
+
+}
+.p{
+  top: 25px;
+  float:right;
+  font-size:78px;
+  }

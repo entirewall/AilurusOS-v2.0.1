@@ -1,0 +1,28 @@
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\Mi Vida v.1.0.1.exe.config
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\Mi Vida v.1.0.1.exe.manifest
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\Mi Vida v.1.0.1.application
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\Mi Vida v.1.0.1.exe
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\Mi Vida v.1.0.1.pdb
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\Control.Draggable.dll
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\MetroFramework.Design.dll
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\MetroFramework.dll
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\MetroFramework.Fonts.dll
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\CefSharp.xml
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\CefSharp.Core.xml
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\bin\x64\Debug\CefSharp.WinForms.xml
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi_Vida_v._1._0._1.Browser.resources
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi_Vida_v._1._0._1.Command.resources
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi_Vida_v._1._0._1.MiVidaPanel.resources
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi_Vida_v._1._0._1.LoginPanel.resources
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi_Vida_v._1._0._1.Notepad.resources
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi_Vida_v._1._0._1.Properties.Resources.resources
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi_Vida_v._1._0._1.SessionState.resources
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.csproj.GenerateResource.cache
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.csproj.CoreCompileInputs.cache
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.TrustInfo.xml
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.exe.manifest
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.application
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.csproj.CopyComplete
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.exe
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.pdb
+C:\Users\unkdo\source\repos\Mi Vida v.1.0.1\Mi Vida v.1.0.1\obj\x64\Debug\Mi Vida v.1.0.1.csprojAssemblyReference.cache
